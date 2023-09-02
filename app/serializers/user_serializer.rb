@@ -3,4 +3,3 @@ class UserSerializer < ActiveModel::Serializer
 end
  
 
-# user's ID, username, image URL, and bio
