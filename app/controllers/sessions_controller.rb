@@ -25,10 +25,4 @@ class SessionsController < ApplicationController
         render json: { errors: errors }, status: :unauthorized
        end
     end 
-
-    private 
-
-    def logged_in? 
-        !session[:user_id].nil?
-    end
 end
